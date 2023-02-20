@@ -1,0 +1,96 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px whitesmoke;
+    height: 65px;
+    padding: 0px 20px 0 20px;
+    color: #0F7047;
+}
+#about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#gallery {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.float{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    box-shadow: 10px 10px 5px whitesmoke;
+}
+
+ul{
+    margin-top: 45px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.top-title{
+    background-color: #13BC93;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.2px;
+    box-shadow: 5px 5px 5px #0F7047;
+}
+
+a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #13BC93;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+button{
+    border-radius: 50%;
+    height: 40px;
+    width: 120px;
+    background-color: #13BC93;
+    box-shadow: 5px 5px 5px #0F7047;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    box-shadow: 5px 5px 5px;
+    background-color: yellow;
+}
+
+.top-title:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
